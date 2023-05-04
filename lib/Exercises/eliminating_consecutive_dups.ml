@@ -13,5 +13,5 @@ let%expect_test "Simple" =
     compress [ "a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "e"; "e"; "e"; "e" ]
   in
   Utils.print_string_list x;
-  [%expect {| [a; b; c; a; d; e] |}]
+  [%expect {| ["a"; "b"; "c"; "a"; "d"; "e"] |}]
 ;;

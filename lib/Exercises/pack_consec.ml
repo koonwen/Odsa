@@ -18,5 +18,5 @@ let%expect_test "Simple" =
     pack [ "a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "d"; "e"; "e"; "e"; "e" ]
   in
   print_list_string_list res;
-  [%expect {| [[a; a; a; a]; [b]; [c; c]; [a; a]; [d; d]; [e; e; e; e]] |}]
+  [%expect {| [["a"; "a"; "a"; "a"]; ["b"]; ["c"; "c"]; ["a"; "a"]; ["d"; "d"]; ["e"; "e"; "e"; "e"]] |}]
 ;;
