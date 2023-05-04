@@ -1,0 +1,6 @@
+(library
+ (name easy)
+ (libraries base fmt)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
