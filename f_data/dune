@@ -1,0 +1,4 @@
+(library
+ (name f_data)
+ (libraries base)
+ (synopsis "functional data structures"))

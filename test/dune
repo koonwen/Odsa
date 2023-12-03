@@ -1,2 +1,6 @@
-(test
- (name dsa))
+(executable
+ (name        dsa_t)
+ (public_name dsa_t))
+
+(cram
+  (deps ./dsa_t.exe))
